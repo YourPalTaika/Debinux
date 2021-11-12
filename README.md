@@ -14,6 +14,8 @@ Pulseaudio
 
 Audacity
 
+Firefox (for now, wil change to LibreWolf Later)
+
 Kdenlive
 
 Inkscape
