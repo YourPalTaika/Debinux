@@ -4,7 +4,7 @@ sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gi
 mkdir ~/Pictures
 mkdir ~/.config/i3/
 mkdir ~/.config/gtk-3.0/
-cp settings.ini ~/.configure/gtk-3.0/settings.ini
+cp settings.ini ~/.config/gtk-3.0/settings.ini
 cp debinux.png ~/Pictures
 sudo cp config /etc/i3/config
 cp i3NOTICE-READ ~/
