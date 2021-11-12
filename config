@@ -17,6 +17,7 @@ font pango:monospace 8
 
 ##### Application Launches and Execs#####
 #exec terminator
+#exec xrandr -s 1360x768
 exec feh --bg-scale ~/Pictures/debinux.png
 
 bindsym $mod+Shift+f exec pcmanfm
