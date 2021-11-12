@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim
 mkdir ~/Pictures
 mkdir ~/.config/i3/
-cp index.jpeg ~/Pictures
+cp debinux.png ~/Pictures
 sudo cp config /etc/i3/config
 cp i3NOTICE-READ ~/
 sudo systemctl reboot
