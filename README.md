@@ -4,6 +4,8 @@
 
 Debinux is a Post setup script that automatically sets up your system with the following things
 
+NOTICE: This should be run on a MINIMAL INSTALL, meaning you installed Vanilla Debian with the NetInst, and didnt select a DE or the Default Debian one.
+
 xorg
 
 i3
