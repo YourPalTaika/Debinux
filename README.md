@@ -22,8 +22,6 @@ Inkscape
 
 GIMP
 
-Discord
-
 neofetch
 
 htop
