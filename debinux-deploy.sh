@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt-get update
-sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh
+sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator
 mkdir ~/Pictures
 mkdir ~/.config/i3/
 cp index.jpeg ~/Pictures
