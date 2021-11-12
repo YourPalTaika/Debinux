@@ -35,3 +35,6 @@ lightdm-gtk-greeter
 And a pre configured i3 Config
 
 And thats about it
+
+
+Background By LegoOperator | @lego_operator on Twitter
