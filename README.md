@@ -12,9 +12,7 @@ Pulseaudio
 
 Audacity
 
-Kdenlive (AppImage, You may have to manually update it)
-
-LibreWolf (AppImage, You may have to manually update it)
+Kdenlive
 
 Inkscape
 
