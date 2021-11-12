@@ -17,7 +17,7 @@ font pango:monospace 8
 
 ##### Application Launches and Execs#####
 #exec terminator
-exec feh --bg-scale ~/Pictures/Debinux.png
+exec feh --bg-scale ~/Pictures/debinux.png
 
 bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+g exec gimp
