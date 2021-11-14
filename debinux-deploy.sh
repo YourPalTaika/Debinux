@@ -9,6 +9,7 @@ cp settings.ini ~/.config/gtk-3.0/settings.ini
 cp .gtkrc-2.0 ~/
 cp config ~/.config/i3/config
 cp debinux.png ~/Pictures
+cp .bashrc ~/
 #sudo cp config /etc/i3/config
 sudo cp sources.list /etc/apt/sources.list
 #cp i3NOTICE-READ ~/
