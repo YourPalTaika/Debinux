@@ -6,6 +6,7 @@ mkdir ~/.config/i3/
 mkdir ~/.config/gtk-3.0/
 mkdir ~/Pictures
 cp settings.ini ~/.config/gtk-3.0/settings.ini
+cp .gtkrc-2.0 ~/
 cp config ~/.config/i3/config
 cp debinux.png ~/Pictures
 #sudo cp config /etc/i3/config
