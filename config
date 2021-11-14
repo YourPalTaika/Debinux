@@ -25,8 +25,9 @@ bindsym $mod+Shift+g exec gimp
 bindsym $mod+Shift+a exec audacity
 bindsym $mod+Shift+k exec kdenlive
 bindsym $mod+Shift+o exec inkscape
-bindsym $mod+Shift+w exec firefox
-
+bindsym $mod+Shift+w exec firefox-esr
+bindsym $mod+Shift+v exec pavucontrol
+bindsym $mod+Shift+n exec sudo wpa_gui
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
