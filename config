@@ -23,7 +23,7 @@ exec feh --bg-scale ~/Pictures/debinux.png
 bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+g exec gimp
 bindsym $mod+Shift+a exec audacity
-bindsym $mod+Shift+k exec kdenlive
+bindsym $mod+Shift+k exec flatpak run org.kde.kdenlive
 bindsym $mod+Shift+o exec inkscape
 bindsym $mod+Shift+w exec firefox-esr
 bindsym $mod+Shift+v exec pavucontrol
