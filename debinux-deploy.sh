@@ -11,7 +11,7 @@ cp config ~/.config/i3/config
 cp debinux.png ~/Pictures
 cp .bashrc ~/
 cp debinux-i3-config-update.sh ~/
-cp terminator/ ~/.config/terminator/
+cp -r terminator/ ~/.config/terminator/
 #sudo cp config /etc/i3/config
 sudo cp sources.list /etc/apt/sources.list
 #cp i3NOTICE-READ ~/
