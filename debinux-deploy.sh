@@ -10,7 +10,9 @@ cp .gtkrc-2.0 ~/
 cp config ~/.config/i3/config
 cp debinux.png ~/Pictures
 cp .bashrc ~/
+cp debinux-i3-config-update.sh ~/
 #sudo cp config /etc/i3/config
 sudo cp sources.list /etc/apt/sources.list
 #cp i3NOTICE-READ ~/
-echo 'OK'
+echo 'since this script is still in development, the i3 config may periodically be updated. Run debinux-i3-config-update.sh to update it at anytime. This is not necessary after install.'
+echo 'OK, you may now reboot!'
