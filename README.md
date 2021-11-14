@@ -2,7 +2,7 @@
 
 
 
-Debinux is a Post setup script that automatically sets up your system with very minimal things. Should only be used as a BASE, user assembly acquired!!!
+Debinux is a Post setup script that automatically sets up your system with the bare minimum with a Window Manager (i3) and some tools for content creation.
 
 
 NOTICE: This should be run on a MINIMAL INSTALL, meaning you installed Vanilla Debian with the NetInst, and didnt select a DE or the Default Debian one.
