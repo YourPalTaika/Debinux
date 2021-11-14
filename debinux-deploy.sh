@@ -17,5 +17,5 @@ cp -r terminator/ ~/.config/terminator/
 #sudo cp config /etc/i3/config
 sudo cp sources.list /etc/apt/sources.list
 #cp i3NOTICE-READ ~/
-echo 'since this script is still in development, the i3 config may periodically be updated. Run debinux-i3-config-update.sh to update it at anytime. This is not necessary after install.'
+echo 'This script is still in development and subject to change, the i3 config may periodically be updated. Please run debinux-i3-config-update.sh to update it at anytime. This is not necessary after install.'
 echo 'OK, you may now reboot!'
