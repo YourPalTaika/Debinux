@@ -11,3 +11,4 @@ cp debinux.png ~/Pictures
 #sudo cp config /etc/i3/config
 sudo cp sources.list /etc/apt/sources.list
 #cp i3NOTICE-READ ~/
+echo 'OK'
