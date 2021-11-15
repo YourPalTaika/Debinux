@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 sudo apt-get update
-sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance wpagui flatpak picom
+sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance wpagui flatpak picom network-manager network-manager-applet
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install kdenlive
 flatpak install discord
 mkdir ~/.config
 mkdir ~/.config/i3/
 mkdir ~/.config/gtk-3.0/
-mkdir ~/.config/picom/
 mkdir ~/Pictures
 cp settings.ini ~/.config/gtk-3.0/settings.ini
 cp .gtkrc-2.0 ~/
