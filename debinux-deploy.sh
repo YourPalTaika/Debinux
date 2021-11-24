@@ -9,6 +9,10 @@ mkdir ~/.config/picom/
 mkdir ~/.config/i3/
 mkdir ~/.config/gtk-3.0/
 mkdir ~/Pictures
+cp i3exit /bin/
+cp blurlock /bin/
+sudo chmod +x /bin/i3exit
+sudo chmod +x /bin/blurlock
 cp settings.ini ~/.config/gtk-3.0/settings.ini
 cp .gtkrc-2.0 ~/
 cp picom.conf ~/.config/picom/picom.conf
