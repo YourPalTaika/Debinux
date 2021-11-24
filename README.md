@@ -9,4 +9,4 @@ NOTICE: This should be run on a MINIMAL INSTALL, meaning you installed Vanilla D
 
 ADDITIONAL NOTICE: This is a personal script for friends and myself. Its quality is not my priority
 
-# Background By LegoOperator | @lego_operator on Twitter
+# Default Wallpaper By LegoOperator | @lego_operator on Twitter
