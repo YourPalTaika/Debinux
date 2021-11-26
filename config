@@ -12,7 +12,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 ##### User Application Binds #####
-bindsym $mod+return exec terminator
+bindsym $mod+Return exec terminator
 bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+g exec gimp
 bindsym $mod+Shift+a exec audacity
