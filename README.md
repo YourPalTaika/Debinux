@@ -9,4 +9,7 @@ NOTICE: This should be run on a MINIMAL INSTALL, meaning you installed Vanilla D
 
 ADDITIONAL NOTICE: This is a personal script for friends and myself. Its quality is not my priority
 
+![name-of-you-image](https://github.com/YourPalTaika/Debinux/blob/main/screenshots/debinux.png?raw=true)
+
 # Default Wallpaper By LegoOperator | @lego_operator on Twitter
+
