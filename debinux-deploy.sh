@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 sudo apt-get update
-sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance wpagui flatpak picom network-manager network-manager-gnome
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install kdenlive
-flatpak install discord
+sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance wpagui picom network-manager network-manager-gnome
 mkdir ~/.config
 mkdir ~/.config/picom/
 mkdir ~/.config/i3/
