@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 sudo apt-get update
-sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance wpagui picom network-manager network-manager-gnome lxpolkit
+sudo apt-get install i3 lightdm lightdm-gtk-greeter pcmanfm inkscape audacity gimp neofetch htop firefox-esr feh terminator pulseaudio pavucontrol geany vim lxappearance picom network-manager network-manager-gnome lxpolkit
 mkdir ~/.config
 mkdir ~/.config/picom/
 mkdir ~/.config/i3/
