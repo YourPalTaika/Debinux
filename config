@@ -10,6 +10,8 @@ exec --no-startup-id feh --bg-scale ~/Pictures/debinux.png
 exec --no-startup-id picom
 exec --no-startup-id nm-applet
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id lxpolkit
+
 
 ##### User Application Binds #####
 bindsym $mod+Return exec terminator
