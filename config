@@ -15,7 +15,7 @@ exec --no-startup-id lxpolkit
 
 ##### User Application Binds #####
 bindsym $mod+Return exec terminator
-bindsym $mod+Shift+f exec pcmanfm
+bindsym $mod+Shift+f exec xdg-open ~/
 bindsym $mod+Shift+g exec gimp
 bindsym $mod+Shift+a exec audacity
 bindsym $mod+Shift+o exec inkscape
@@ -24,6 +24,7 @@ bindsym $mod+Shift+v exec pavucontrol
 bindsym $mod+Shift+l exec lxappearance
 bindsym $mod+Shift+d exec flatpak run com.discordapp.Discord
 bindsym $mod+Shift+k exec flatpak run org.kde.kdenlive
+bindsym $mod+p exec scrot ~/Downloads/%Y-%m-%d-%T-screenshot.png
 
 ##### Shutdown Handled by i3exit script. #####
 bindsym $mod+Shift+e mode "$mode_system"
@@ -52,10 +53,27 @@ bindsym $mod+m bar mode toggle
   client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
   client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
-
   client.background       #2B2C2B
   
-##### Pulse Audio Keyboard Binds, disabled by default, incase you want to use those buttons for something else. #####
+  bar {
+  colors {
+    background #556064
+    statusline #69A8A7
+    separator  #000000
+
+    focused_workspace  #000000 #000000 #69A8A7
+    active_workspace   #333333 #222222 #69A8A7
+    inactive_workspace #333333 #2F3D44 #69A8A7
+    urgent_workspace   #2F343A #900000 #9FFFFD
+    binding_mode       #2F343A #900000 #9FFFFD
+
+  }
+  status_command i3status
+}
+
+
+
+##### PulseAudio Keyboard Binds, disabled by default, incase you want to use those buttons for something else. #####
 #Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
 #bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -187,8 +205,4 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-##### Start i3bar to display a workspace bar (plus the system information i3status
-##### finds out, if available)
-bar {
-        status_command i3status
-}
+
