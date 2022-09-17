@@ -1,6 +1,7 @@
-# Debinux
+# Debinux -WIP- REWORK COMING
 
 
+LEGACY README:
 
 Debinux is my personal Post setup script that automatically sets up the system with a Window Manager (i3) and some tools for content creation.
 It is not super light or super heavy.
